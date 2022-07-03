@@ -7,7 +7,6 @@ body{
     color: orange;
 }
 section{
-    display: flex;
     margin-bottom: 100px;
 }
 .half-width{
@@ -28,10 +27,37 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    display: flex;
 }
 .exp-bg{
    
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    display: flex;}
+.parents{
+display: flex;
+text-align: center;
+}
+.full-stack{
+     width: 40%;
+     margin-left: 5%;
+     box-shadow: 10px 10px 40px gray;
+     padding: 10px;
+     border-left: solid 7px orange;
+}
+.baby-web{
+    width: 40%;
+    margin-left: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 10px;
+    border-left: solid 7px green;
+}
+.full{
+    color: orange;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
